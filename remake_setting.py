@@ -32,7 +32,7 @@ async def bangzhu(bot, ev):
     await bot.send(ev, sv_help, at_sender=True)
 
 
-remake_folder = R.img('remake_img/').path
+remake_folder = R.img('remake_setting/').path
 
 
 def remake_gener():
@@ -41,7 +41,7 @@ def remake_gener():
         random.shuffle(filelist)
         for filename in filelist:
             if os.path.isfile(os.path.join(remake_folder, filename)):
-                yield R.img('remake_img/', filename)
+                yield R.img('remake_setting/', filename)
 
 
 remake_gener = remake_gener()
