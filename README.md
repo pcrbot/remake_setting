@@ -1,4 +1,4 @@
-## Hoshino的人设设定插件
+## Hoshino的重开设定插件
 
 > Mac 和 Windows 都测试过没问题！
 >
